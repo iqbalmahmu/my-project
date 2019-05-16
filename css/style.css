@@ -1,12 +1,22 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+body {
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+}
+
+p,
+blockquote {
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    background: gray;
-    width: 970px;
-    width: 0px auto;
-    height: auto;
+    text-align: center;
+    padding: .8em 1.3em;
 }
