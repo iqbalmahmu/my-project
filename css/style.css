@@ -20,3 +20,50 @@ ul {
     text-align: center;
     padding: .8em 1.3em;
 }
+
+logo {
+    width: 130px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+
+.server {
+    width: 70%;
+    margin: 2em auto 2em 25%;
+}
+
+h1,
+.subhead {
+    position: relative;
+    z-index: 3;
+}
+
+.subhead {
+    font-size: 1.1em;
+}
+
+.blue-container {
+    width: 100%;
+    background: #0de7e7;
+    color: white;
+    margin-top: 15%;
+    padding: 4em 0 2em;
+    border-top-left-radius: 40px;
+    transform: skewY(-3deg);
+}
+
+.blue-container ul {
+    transform: skewY(3deg);
+}
